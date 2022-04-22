@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Company>$(Authors)</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
